@@ -4,7 +4,8 @@ This project was coded as part of the FreeCodeCamp Apis and Microservices Projec
 If you like to try this project:
 1. Clone this base Repo from FCC: https://github.com/freeCodeCamp/boilerplate-project-timestamp/
 2. Ensure that you meet all the User Stories below:
-User Stories :
+
+# User Stories :
 1. The API endpoint is GET [project_url]/api/timestamp/:date_string?
 2. A date string is valid if can be successfully parsed by new Date(date_string).
    Note that the unix timestamp needs to be an integer (not a string) specifying milliseconds.
