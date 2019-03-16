@@ -1,6 +1,16 @@
 # FCC-Timestamp-Microservice
 This project was coded as part of the FreeCodeCamp Apis and Microservices Projects - Timestamp Microservice
 
+## To use this:
+1. Ensure you have node.js installed. If not install from https://nodejs.org/en/
+2. Clone/download this repo
+3. (Skip this if you used git clone) Unzip the downloaded file. 
+4. Open command prompt (for windows, win + r -> cmd -> enter)
+5. Change directory into the FCC-Timestamp-Microservice folder
+6. If you do not have express and cors, run the following commands: npm install express, npm install cors
+7. Run the command Node server.js, you should get a reply of "Your app is listening on port 50023" (50023 is the port i specified to listen on, NOTE: if you want to dynamically assign ports, change the codes in the server.js file from app.listen(50023... to app.listen(process.env.PORT... )
+8. Now go your localhost with the assigned port, 127.0.0.1:50023 and refer to that for usages
+
 If you like to try this project:
 1. Clone this base Repo from FCC: https://github.com/freeCodeCamp/boilerplate-project-timestamp/
 2. Ensure that you meet all the User Stories below:
